@@ -24,7 +24,7 @@ El proyecto está organizado bajo tres capas principales:
 - Page Object Model (POM)
 
 ---
-
+```bash
 ## ▶️ Ejecución del proyecto
 
 ### Prerrequisitos
@@ -32,15 +32,15 @@ El proyecto está organizado bajo tres capas principales:
 - Git
 
 ### Instalar dependencias
-```bash
+
 npm install
 
 ### Instalación
 Clonar el repositorio:
-```bash
+
 git clone https://github.com/Michaelabril/POM_PLAYWRIGHT.git
 
 ### Ejecutar las pruebas con npm
 Ejecutar todos los escenarios:
-```bash
+
 npm test
