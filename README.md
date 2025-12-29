@@ -27,6 +27,20 @@ El proyecto está organizado bajo tres capas principales:
 
 ## ▶️ Ejecución del proyecto
 
+### Prerrequisitos
+- Node.js v18 o superior
+- Git
+
 ### Instalar dependencias
 ```bash
 npm install
+
+### Instalación
+Clonar el repositorio:
+```bash
+git clone https://github.com/Michaelabril/POM_PLAYWRIGHT.git
+
+### Ejecutar las pruebas con npm
+Ejecutar todos los escenarios:
+```bash
+npm test
