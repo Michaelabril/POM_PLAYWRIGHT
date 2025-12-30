@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --format json:reports/cucumber_report.json",
+      "test": "cucumber-js --profile smoke",
     "posttest": "node index.js"},
   "keywords": [],
   "author": "",

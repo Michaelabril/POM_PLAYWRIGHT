@@ -1,11 +1,11 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 const { expect } = require('@playwright/test');
 
-const { amazon } = require('../../data/amazonData');
-const { AmazonHomePage } = require('../../pages/AmazonHomePage');
-const { AmazonResultsPage } = require('../../pages/AmazonResultsPage');
-const { AmazonProductPage } = require('../../pages/AmazonProductPage');
-const { CartProducts } = require('../../pages/CartProducts');
+const { amazon } = require('../data/amazonData');
+const { AmazonHomePage } = require('../pages/AmazonHomePage');
+const { AmazonResultsPage } = require('../pages/AmazonResultsPage');
+const { AmazonProductPage } = require('../pages/AmazonProductPage');
+const { CartProducts } = require('../pages/CartProducts');
 
 let page;
 let home;
