@@ -44,3 +44,8 @@ git clone https://github.com/Michaelabril/POM_PLAYWRIGHT.git
 Ejecutar todos los escenarios:
 
 npm test
+```bash
+
+## Autor
+
+Michael Abril
